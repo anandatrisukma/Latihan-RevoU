@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Form Belajar</title>
+    <link rel="stylesheet" href="latihan2.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Form Belajar</h1>
+      <p>Ini adalah website latihan pertama Nanda</p>
+    </header>
+    <section class="grid-container">
+      <div class="item1">
+        <form method="post">
+          <div class="row">
+            <div class="col-25">
+              <label for="name">Nama</label>
+            </div>
+            <div class="col-75">
+              <input class="w-100" id="name" type="text" placeholder="Nama" />
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-25">
+              <label for="dateofbirth">Tanggal Lahir</label>
+            </div>
+            <div class="col-75">
+              <input
+                class="w-100"
+                id="dateofbirth"
+                type="text"
+                placeholder="Tanggal Lahir"
+              />
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-25">
+              <label for="gender">Jenis Kelamin</label>
+            </div>
+            <div class="col-75">
+              <input
+                type="radio"
+                id="laki-laki"
+                name="gender"
+                value="Laki-Laki"
+              />
+              <label for="laki-laki">Laki-Laki</label>
+              <input
+                type="radio"
+                id="perempuan"
+                name="gender"
+                value="Perempuan"
+              />
+              <label for="perempuan">Perempuan</label>
+            </div>
+          </div>
+          <div class="row">
+            <div class="msglabel">
+              <label for="message">Pesan</label>
+            </div>
+            <div class="col-75">
+              <input
+                class="h-100"
+                id="message"
+                type="text"
+                placeholder="Pesan"
+                maxlength="300"
+              />
+            </div>
+          </div>
+          <div class="row">
+            <input class="w-100" type="submit" value="Submit" />
+          </div>
+        </form>
+      </div>
+      <div class="item2">
+        <table>
+          <tr>
+            <th>Nama</th>
+            <th>Tanggal Lahir</th>
+            <th>Jenis Kelamin</th>
+            <th>Pesan</th>
+            <th>Profil</th>
+            <th>Hapus</th>
+          </tr>
+          <tr>
+            <td>Ada Lovelace</td>
+            <td>10 Desember 1995</td>
+            <td>Perempuan</td>
+            <td>Belajar buat website</td>
+            <td>
+              <a href="https://www.google.com/">Klik disini</a>
+            </td>
+            <td>
+              <img
+                src="images/recycle-bin.png"
+                alt="Hapus"
+                style="width: 15px; height: 15px"
+              />
+            </td>
+          </tr>
+          <tr>
+            <td>Grace Hopper</td>
+            <td>09 Desember 1996</td>
+            <td>Perempuan</td>
+            <td>Hello World!</td>
+            <td>
+              <a href="https://www.google.com/">Klik disini</a>
+            </td>
+            <td>
+              <img
+                src="images/recycle-bin.png"
+                alt="Hapus"
+                style="width: 15px; height: 15px"
+              />
+            </td>
+          </tr>
+          <tr>
+            <td>Margaret Hamilton</td>
+            <td>17 Agustus 1985</td>
+            <td>Perempuan</td>
+            <td>Tes Dulu</td>
+            <td>
+              <a href="https://www.google.com/">Klik disini</a>
+            </td>
+            <td>
+              <img
+                src="images/recycle-bin.png"
+                alt="Hapus"
+                style="width: 15px; height: 15px"
+              />
+            </td>
+          </tr>
+          <tr>
+            <td>Joan Clarke</td>
+            <td>24 Juni 1997</td>
+            <td>Laki-Laki</td>
+            <td>Selalu Semangat</td>
+            <td>
+              <a href="https://www.google.com/">Klik disini</a>
+            </td>
+            <td>
+              <img
+                src="images/recycle-bin.png"
+                alt="Hapus"
+                style="width: 15px; height: 15px"
+              />
+            </td>
+          </tr>
+        </table>
+      </div>
+    </section>
+  </body>
+</html>
