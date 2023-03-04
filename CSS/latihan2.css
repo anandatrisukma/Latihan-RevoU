@@ -46,6 +46,7 @@ body {
 
 .msglabel {
   width: 25%;
+  margin-top: 10px;
 }
 
 input[type="radio"] {
